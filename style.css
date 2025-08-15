@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+#result {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#scores {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.win { color: green; }
+.lose { color: red; }
+.draw { color: orange; }
+.level-btn {
+  background: #ddd;
+  border-radius: 8px;
+}
+.selected {
+  background: #4caf50;
+  color: #fff;
+}
